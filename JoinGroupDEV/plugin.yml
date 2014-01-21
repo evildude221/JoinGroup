@@ -1,0 +1,20 @@
+name: JoinGroup
+main: me.cgfx360.joingroup.Main
+version: 1.0
+description: >
+             Join group.
+commands:
+  join-blue:
+    description: Join Blue.
+    permission: joingroup.blue
+    permission-message: §cYou don't have permission
+  join-green:
+    description: Join Green.
+    permission: joingroup.green
+    permission-message: §cYou don't have permission
+permissions:
+  joingroup.blue:
+    default: true
+  joingroup.green:
+    default: true
+    
